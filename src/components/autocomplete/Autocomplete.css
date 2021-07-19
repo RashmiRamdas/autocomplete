@@ -1,0 +1,20 @@
+.autocomplete__input {
+  width: 200px;
+  padding: 5.5px;
+}
+.autocomplete__list {
+  box-sizing: border-box;
+  display: block;
+  margin: 0;
+  border: 1px solid;
+  text-align: initial;
+  padding: 0;
+  width: calc(200px + 1rem);
+  max-height: 85px;
+  overflow: auto;
+}
+
+.autocomplete__list li {
+  list-style-type: none;
+  padding: 5.5px;
+}
