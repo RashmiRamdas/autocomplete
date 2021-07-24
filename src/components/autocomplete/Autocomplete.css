@@ -8,13 +8,33 @@
   margin: 0;
   border: 1px solid;
   text-align: initial;
-  padding: 0;
+  padding: 0.1rem;
   width: calc(200px + 1rem);
-  max-height: 85px;
+  /* max-height: 85px; */
   overflow: auto;
 }
 
 .autocomplete__list li {
   list-style-type: none;
   padding: 5.5px;
+  cursor: pointer;
+}
+
+.autocomplete__list .active {
+  background-color: #4fc3f7;
+  color: white;
+}
+.autocomplete__list li:hover {
+  outline: 1px solid #4fc3f7;
+}
+.autocomplete__close {
+  position: relative;
+  right: 19px;
+  top: 1px;
+  cursor: pointer;
+  color: grey;
+}
+
+.autocomplete__close:hover {
+  color: black;
 }
